@@ -17,6 +17,7 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
+			// !!!My change. Value was 20, and background image scrolled not very nice
 				parallaxFactor: 0
 
 		};
@@ -100,8 +101,8 @@
 
 				$('#two').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
+					overlayColor: '#2c2c2c', 
+					overlayOpacity: 0.85, 
 					popupCloserText: '',
 					popupLoaderText: '',
 					selector: '.work-item a.image',
